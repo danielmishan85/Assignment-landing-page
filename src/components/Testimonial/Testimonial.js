@@ -15,7 +15,7 @@ const Testimonial = () => {
       img: profilePic1,
       name: 'יוסי כהן',
       review:
-        '.השירות ששינה לי את החיים! סופסוף מצאתי את הפתרון הפיננסי המושלם',
+        'השירות ששינה לי את החיים! סופסוף מצאתי את הפתרון הפיננסי המושלם.',
     },
     {
       img: profilePic2,
@@ -39,7 +39,7 @@ const Testimonial = () => {
   return (
     <div className='t-wrapper'>
       <div className='t-hadding'>
-        <span>:המלצות עלינו</span>
+        <span>המלצות עלינו:</span>
       </div>
       {/* sliders */}
       <Swiper

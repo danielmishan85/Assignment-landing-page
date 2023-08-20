@@ -33,9 +33,9 @@ const Contact = () => {
     <div className='contact' id='Contact'>
       <div className='get-input'>
         <div className='headline'>
-          <span>,למידע נוסף ותיאום פגישה</span>
+          <span>למידע נוסף ותיאום פגישה,</span>
           <span>השאירי פרטים ונחזור אלייך בהקדם</span>
-          <span>₪ החל מ-400,000</span>
+          <span>השירות בליווי מלא - ללא עלות!</span>
         </div>
         <form ref={form} onSubmit={sendEmail}>
           <input
@@ -59,8 +59,12 @@ const Contact = () => {
             placeHolder='טלפון'
             required
           />
-          <input type='submit' value='←      שלחו טופס' className='button s-button' />
-          <span>{done && '!טופס נשלח בהצלחה, ניצור איתך קשר בהקדם'}</span>
+          <input
+            type='submit'
+            value='שלחו טופס             ←'
+            className='button s-button'
+          />
+          <span>{done && 'טופס נשלח בהצלחה, ניצור איתך קשר בהקדם!'}</span>
         </form>
       </div>
     </div>

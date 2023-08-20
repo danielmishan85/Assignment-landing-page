@@ -1,0 +1,31 @@
+.about {
+  margin: 7% 20%;
+  display: flex;
+  gap: 2rem;
+}
+
+.heading {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: start;
+}
+
+.a-section{
+    width: 70%;
+}
+
+.line {
+  background: rgb(215, 185, 120);
+  height: 2px;
+  width: 20%;
+}
+
+.a-left{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.a-left > img {
+    width: 60%;
+}
