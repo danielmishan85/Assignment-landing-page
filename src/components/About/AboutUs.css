@@ -4,6 +4,11 @@
   gap: 2rem;
 }
 
+.a-right{
+  display: flex;
+  flex-direction: column;
+}
+
 .heading {
   font-size: 2rem;
   font-weight: bold;
@@ -17,7 +22,7 @@
 .line {
   background: rgb(215, 185, 120);
   height: 2px;
-  width: 20%;
+  width: 23%;
 }
 
 .a-left{
@@ -28,4 +33,17 @@
 
 .a-left > img {
     width: 60%;
+}
+
+@media screen and (max-width: 480px) {
+  .about {
+    flex-direction: column;
+  }
+  .a-right{
+    align-items: center;
+    text-align: center;
+  }
+  .line{
+    width: 100%;
+  }
 }
