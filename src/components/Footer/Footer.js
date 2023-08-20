@@ -20,20 +20,22 @@ const Footer = () => {
         </Link>
       </div>
       <div className='f-icons'>
-        <a href='https://github.com/danielmishan85' target='_blank'>
+        <a
+          href='https://www.facebook.com/profile.php?id=100009705289231'
+          target='_blank'
+        >
           <Facebook size='2rem' />
         </a>
         <a href='https://www.linkedin.com/in/daniella-mishan/' target='_blank'>
           <Linkedin size='2rem' />
         </a>
-        <a href='https://www.linkedin.com/in/daniella-mishan/' target='_blank'>
+        <a href='https://www.instagram.com/daniel_mishan/' target='_blank'>
           <Instagram size='2rem' />
         </a>
       </div>
       <div className='f-left'>
-        © 2023 שפר חייך הפיננסיים. כל הזכויות שמורות.
-        <br />
-        כל המידע באתר זה הוא למטרות מידע וייעוץ ואינו מהווה ייעוץ משפטי.
+        © 2023 שפר חייך הפיננסיים. כל הזכויות שמורות. כל המידע באתר זה הוא
+        למטרות מידע וייעוץ ואינו מהווה ייעוץ משפטי.
       </div>
     </div>
   );

@@ -5,12 +5,13 @@ import logo from '../../img/logo.png';
 const About = () => {
   return (
     <div className='about' id='About'>
-      <div className='a-right'>
+      <div className='background'></div>
+      <div className='right'>
         <div className='heading'>
           <span>מי אנחנו?</span>
           <div className='line'></div>
         </div>
-        <div className='a-section'>
+        <div className='section'>
           אנחנו מאמינים שניהול כסף יכול להיות פשוט ונגיש לכל אחד. הקמנו את החברה
           עם המטרה לשדרג את ניהול הכספים של אנשים, לספק להם ייעוץ פיננסי מקצועי
           ולהבטיח שכל לקוח יכול להפנות את עצמו לעתיד פיננסי טוב יותר.
@@ -29,7 +30,7 @@ const About = () => {
           הכספים שלהם באמצעות שירותינו המקצועיים והאישיים.
         </div>
       </div>
-      <div className='a-left'>
+      <div className='left'>
         <img src={logo} alt='logo-img' />
       </div>
     </div>

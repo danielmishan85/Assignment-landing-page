@@ -1,12 +1,27 @@
 .about {
-  margin: 7% 20%;
+  padding: 5% 20%;
   display: flex;
   gap: 2rem;
+  position: relative;
 }
 
-.a-right{
+.background {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url('https://poria-finance.com/wp-content/uploads/2021/12/hand-holding-tree-blur-green-nature--scaled.webp');
+}
+
+.right {
   display: flex;
   flex-direction: column;
+  gap: 2rem;
+  position: relative;
 }
 
 .heading {
@@ -15,8 +30,8 @@
   text-align: start;
 }
 
-.a-section{
-    width: 70%;
+.section {
+  width: 70%;
 }
 
 .line {
@@ -25,25 +40,30 @@
   width: 23%;
 }
 
-.a-left{
-    display:flex;
-    align-items: center;
-    justify-content: center;
+.left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
 
-.a-left > img {
-    width: 60%;
+.left > img {
+  width: 50%;
 }
 
 @media screen and (max-width: 480px) {
   .about {
     flex-direction: column;
   }
-  .a-right{
+  .right {
     align-items: center;
     text-align: center;
+    gap: 2rem;
   }
-  .line{
+  .line {
     width: 100%;
+  }
+  .left > img {
+    width: 90%;
   }
 }
