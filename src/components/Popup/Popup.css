@@ -43,7 +43,7 @@
 .popup .user {
   width: 15rem;
   height: 2rem;
-  padding: 0.3em;
+  padding: 0.3em 1em;
   outline: none;
   border: 2px solid white;
   background: rgb(240, 240, 240);
@@ -59,7 +59,8 @@
 @media screen and (max-width: 480px) {
   .popup {
     left: 10%;
-    width: 20rem;
+    right: 10%;
+    width: auto;
     top: 10%;
   }
 }

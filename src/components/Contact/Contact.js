@@ -33,11 +33,7 @@ const Contact = () => {
     <div className='contact' id='Contact'>
       <div className='getInput'>
         <div className='headline'>
-          <span>For more information and to schedule an appointment,</span>
-          <span>
-            Leave details and we will get back to you as soon as possible
-          </span>
-          <span>The service is fully accompanied - free of charge!</span>
+        For further information leave your details and we'll get back to you as soon as possible -<span> free of charge!</span>
         </div>
         <form ref={form} onSubmit={sendEmail}>
           <input

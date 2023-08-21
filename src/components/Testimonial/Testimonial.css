@@ -20,11 +20,10 @@
   justify-content: space-evenly;
   padding: 4rem;
   width: 80rem;
-  height: 17rem;
   background: rgba(255, 255, 255, 0.26);
-  box-shadow: var(--boxShadowGrey);
+
   border-radius: 5px;
-  gap: 1rem;
+  gap: 3rem;
 }
 
 .testimonial > img {
@@ -45,8 +44,10 @@
 }
 
 .t-wrapper .swiper {
-  width: 100%;
+  width: 80%;
   height: 70%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+  background-color: #fff;
 }
 
 .t-wrapper .swiper-slide {
@@ -56,13 +57,14 @@
 }
 
 @media screen and (max-width: 480px) {
-  .testimonial{
+  .testimonial {
     width: 15rem;
+    padding: 4rem 1rem;
   }
   .testimonial > * {
     transform: scale(0.8);
   }
-  .testimonial span:nth-of-type(2){
+  .testimonial span:nth-of-type(2) {
     font-size: 18px;
   }
 }
