@@ -52,8 +52,8 @@
 
 @media screen and (max-width: 480px) {
   .contact {
-    margin-top: 7%;
-    margin-bottom: 10%;
+    padding-top: 7%;
+    padding-bottom: 10%;
   }
   .getInput {
     width: 25rem;
@@ -63,6 +63,7 @@
   }
   .headline{
     font-size: 13px;
+    font-weight: 900;
   }
   .getInput > form {
     flex-direction: column;
