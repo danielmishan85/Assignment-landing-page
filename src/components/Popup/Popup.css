@@ -21,8 +21,8 @@
   cursor: pointer;
 }
 
-.closed{
-    display: none; 
+.closed {
+  display: none;
 }
 
 .popupHeadline {
@@ -53,4 +53,12 @@
 
 .p-button {
   margin-top: 2%;
+}
+
+@media screen and (max-width: 480px) {
+  .popup {
+    left: 10%;
+    width: 20rem;
+    top: 10%;
+  }
 }
