@@ -15,31 +15,31 @@ const Testimonial = () => {
       img: profilePic1,
       name: 'Yossi Cohen',
       review:
-        'The service that changed my life! I finally found the perfect financial solution.',
+        `"The service that changed my life! I finally found the perfect financial solution".`,
     },
     {
       img: profilePic2,
       name: 'Shira lavi',
       review:
-        'I am very satisfied with the service. Your accurate and quick answers are very impressive.',
+      `"I am very satisfied with the service. Your accurate and quick answers are very impressive".`,
     },
     {
       img: profilePic3,
       name: 'Natalie Klein',
       review:
-        'I admit that before getting to know your service, I was not at all sure where my money was going. Now I feel like I have someone who takes care of every detail and leads me to sound financial decisions.',
+      `"I admit that before getting to know your service, I was not at all sure where my money was going. Now I feel like I have someone who takes care of every detail and leads me to sound financial decisions".`,
     },
     {
       img: profilePic4,
       name: 'Noa Tamam',
       review:
-        'I finally found the personal financial service I was looking for. The professional support and personalized recommendations made me feel that I am not alone on my path to financial management.',
+      `"I finally found the personal financial service I was looking for. The professional support and personalized recommendations made me feel that I am not alone on my path to financial management".`,
     },
   ];
   return (
     <div className='t-wrapper'>
       <div className='t-hadding'>
-        <span>Recommendations:</span>
+        <span>Recommendations</span>
       </div>
       {/* sliders */}
       <Swiper

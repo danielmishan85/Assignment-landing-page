@@ -3,7 +3,6 @@
   display: flex;
   flex-direction: column;
   margin: 3%;
-
 }
 
 .getInput {
@@ -34,7 +33,6 @@
 
 .getInput > form {
   display: flex;
-
   gap: 1rem;
   align-items: center;
 }
@@ -52,14 +50,18 @@
 }
 
 @media screen and (max-width: 480px) {
+  .contact {
+    margin-top: 7%;
+    margin-bottom: 10%;
+  }
   .getInput {
     width: 25rem;
-    height: 38rem;
-    border: var(--boxShadow);
+    height: 28rem;
     transform: scale(0.9);
+    gap: 3rem;
   }
   .headline{
-    font-size: 15px;
+    font-size: 14px;
   }
   .getInput > form {
     flex-direction: column;

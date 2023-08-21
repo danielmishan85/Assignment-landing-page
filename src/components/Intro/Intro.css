@@ -61,7 +61,13 @@
     width: 100%;
   }
   .logoImg{
-    width: 40%;
+    width: 30%;
+  }
+  .i-heading {
+    font-size: 25px;
+  }
+  .i-heading2{
+    font-size: 18px;
   }
   .i-left {
     width: 100%;

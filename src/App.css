@@ -1,6 +1,7 @@
 :root {
   --black: #242d49;
-  --boxShadow: 0px 19px 60px rgb(0 0 0 / 8%);
+  --boxShadowGrey: 0px 19px 60px rgb(0 0 0 / 8%); 
+  --boxShadow: 0px 19px 60px rgb(182, 142, 194);
 }
 .App {
   overflow: hidden;
