@@ -1,40 +1,45 @@
 import './Services.css';
 
-import icon from '../../img/icon.png'
+import icon1 from '../../img/icon1.png';
+import icon2 from '../../img/icon2.png';
+import icon3 from '../../img/icon3.png';
 
 const Services = () => {
   return (
     <div className='services' id='Services'>
       <div className='headline'>
         <span style={{ color: 'rgb(182, 142, 194)', fontSize: '2rem' }}>
-          היתרונות שלנו
+          Our advantages
         </span>
       </div>
       <div className='services-list'>
         <div className='srv1'>
-          <img src={icon} alt='icon-img'/>
-          <span>ניהול תיק השקעות מותאם אישית</span>
+          <img src={icon2} alt='icon-img' />
+          <span>Personalized investment portfolio management</span>
           <span>
-            אנו מפעילים גישה אישית לניהול השקעות שלך, מתוך הבנה מעמיקה של מטרות
-            ההשקעה שלך ורמת הסיכון שאתה מעדיף.
+            We operate a personal approach to managing your investments, based
+            on a deep understanding of goals Your investment and the level of
+            risk you prefer.
           </span>
         </div>
         <div className='srv2'>
-        <img src={icon} alt='icon-img'/>
-          <span>ייעוץ פיננסי מותאם</span>
+          <img src={icon1} alt='icon-img' />
+          <span>Tailored financial advice</span>
           <span>
-            תוך התחשבות במידע פיננסי מעודכן ובמבנה הפיננסי האישי שלך, אנחנו
-            בונים יחד את תוכנית הפעולה האישית שלך. המטרה - להבטיח שתגיע אל כל
-            מטרה פיננסית שאתה רוצה להשיג.
+            Taking into account up-to-date financial information and your
+            personal financial structure, we Build your personal action plan
+            together. The goal - to ensure that you reach all A financial goal
+            you want to achieve.
           </span>
         </div>
         <div className='srv3'>
-        <img src={icon} alt='icon-img'/>
-          <span>המלצות מובילות</span>
+          <img src={icon3} alt='icon-img' />
+          <span>Top recommendations</span>
           <span>
-            כל המלצה מתבצעת בהתאם למבנה הפיננסי האישי שלך. תחומי ההשקעה,
-            השווקים, רמת הסיכון והכשרונות הפיננסיים הם רק חלק מהמשתנים שאנחנו
-            לוקחים בחשבון כאשר אנו נותנים המלצות.
+            Each recommendation is made according to your personal financial
+            structure. investment areas, The markets, the level of risk and the
+            financial talents are only some of the variables that we are taken
+            into account when we give recommendations.
           </span>
         </div>
       </div>

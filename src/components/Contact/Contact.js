@@ -31,40 +31,44 @@ const Contact = () => {
 
   return (
     <div className='contact' id='Contact'>
-      <div className='get-input'>
+      <div className='getInput'>
         <div className='headline'>
-          <span>למידע נוסף ותיאום פגישה,</span>
-          <span>השאירי פרטים ונחזור אלייך בהקדם</span>
-          <span>השירות בליווי מלא - ללא עלות!</span>
+          <span>For more information and to schedule an appointment,</span>
+          <span>
+            Leave details and we will get back to you as soon as possible
+          </span>
+          <span>The service is fully accompanied - free of charge!</span>
         </div>
         <form ref={form} onSubmit={sendEmail}>
           <input
             type='text'
             name='user_name'
             className='user'
-            placeHolder='שם מלא'
+            placeHolder='Full name'
             required
           />
           <input
             type='email'
             name='user_email'
             className='user'
-            placeHolder='מייל'
+            placeHolder='Email address'
             required
           />
           <input
-            type='phone'
+            type='tel'
             name='user_phone'
             className='user'
-            placeHolder='טלפון'
+            placeHolder='Phone number'
             required
           />
           <input
             type='submit'
-            value='שלחו טופס             ←'
+            value='Subscribe for free'
             className='button s-button'
           />
-          <span>{done && 'טופס נשלח בהצלחה, ניצור איתך קשר בהקדם!'}</span>
+          <span>
+            {done && 'Form sent successfully, we will contact you soon!'}
+          </span>
         </form>
       </div>
     </div>

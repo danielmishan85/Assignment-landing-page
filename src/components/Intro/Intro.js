@@ -13,22 +13,26 @@ const Intro = () => {
 
   return (
     <div className='intro' id='Home'>
+      <div className='i-left'>
+        <img className='heroImg' src={hero} alt='hero-img' />
+      </div>
       <div className='i-right'>
         <img className='logoImg' src={logo} alt='logo-img' />
         <div className='i-heading'>
-          <span>שפר את חייך הפיננסים | הדרך לניהול</span>
-          <span>מאובטח והשקעות משתלמות</span>
+          <span>WWS | The way to secure management</span>
+          <span>and profitable investments</span>
         </div>
         <div className='i-heading2'>
-          ברוך הבא לעולם של שיפור חיים הפיננסיים! אם אתה מחפש את הדרך לנהל את
-          הכספים שלך בצורה חכמה ומתוכננת, אתה במקום הנכון. אנחנו כאן כדי לספק לך
-          שירות פיננסי מתקדם שנועד להפוך את התהליך לפשוט ונגיש.
+          Welcome to the world of improving your financial life! If you are
+          looking for the way to manage your finances in a smart and planned
+          way, you are in the right place. We are here to provide you with an
+          advanced financial service designed to make the process simple and
+          accessible.
         </div>
         <button className='button i-button' onClick={scrollToTarget}>
-          לפרטים נוספים
+          Subscribe for free
         </button>
       </div>
-      <div className='i-left'><img className='heroImg' src={hero} alt='hero-img' /></div>
     </div>
   );
 };

@@ -8,18 +8,18 @@ import { Link } from 'react-scroll';
 const Footer = () => {
   return (
     <div className='footer'>
-      <div className='f-right'>
+      <div className='footerLeft'>
         <Link spy={true} to='Home' smooth={true} activeClass='activeClass'>
-          <span className='links'>בית</span>
+          <span className='links'>Home</span>
         </Link>
         <Link spy={true} to='About' smooth={true}>
-          <span className='links'>אודותינו</span>
+          <span className='links'>About us</span>
         </Link>
         <Link spy={true} to='Contact' smooth={true}>
-          <span className='links'>צור קשר</span>
+          <span className='links'>Contact us</span>
         </Link>
       </div>
-      <div className='f-icons'>
+      <div className='footerIcons'>
         <a
           href='https://www.facebook.com/profile.php?id=100009705289231'
           target='_blank'
@@ -33,9 +33,10 @@ const Footer = () => {
           <Instagram size='2rem' />
         </a>
       </div>
-      <div className='f-left'>
-        © 2023 שפר חייך הפיננסיים. כל הזכויות שמורות. כל המידע באתר זה הוא
-        למטרות מידע וייעוץ ואינו מהווה ייעוץ משפטי.
+      <div className='footerRight'>
+        © 2023 WealthWise Solutions. All rights reserved. All information on this website is for
+        informational and advisory purposes and does not constitute legal
+        advice.
       </div>
     </div>
   );

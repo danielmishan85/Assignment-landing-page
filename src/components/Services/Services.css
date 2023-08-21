@@ -3,7 +3,7 @@
   flex-direction: column;
   margin-top: 5%;
   gap: 4rem;
-  background: white;
+  background: rgb(204, 232, 243);
 }
 
 .services span:nth-of-type(1) {
