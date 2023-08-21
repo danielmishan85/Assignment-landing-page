@@ -2,26 +2,25 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgb(161, 161, 161);
+  background: black;
   gap: 5rem;
-  padding: 2rem;
+  padding: 1rem;
 }
-
-/* .footer > * {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-} */
 
 .footerLeft {
   display: flex;
   flex-direction: column;
   gap: 1rem;
   font-size: 13px;
-  text-align: center;
+  /* text-align: center; */
+}
+
+.links{
+  color: white;
 }
 
 .links:hover {
-  color: white;
+  color: rgb(200, 194, 201);
   cursor: pointer;
 }
 
@@ -31,14 +30,15 @@
 }
 
 .footerIcons a {
-  color: black;
-}
-
-.footerIcons a:hover {
   color: white;
 }
 
+.footerIcons a:hover {
+  color: rgb(200, 194, 201);
+}
+
 .footerRight {
+  color: white;
   font-size: 13px;
   font-weight: 700;
 }

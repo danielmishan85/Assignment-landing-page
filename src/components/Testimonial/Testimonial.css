@@ -5,13 +5,12 @@
   margin-bottom: 4rem;
   gap: 2rem;
   flex-direction: column;
-  
 }
 
 .t-hadding > * {
   font-size: 2rem;
   font-weight: bold;
-  color: rgb(182, 142, 194);
+  color: rgb(101, 128, 159);
 }
 
 .testimonial {
@@ -35,7 +34,7 @@
 }
 
 .testimonial span:nth-of-type(1) {
-  color: rgb(182, 142, 194);
+  color: rgb(101, 128, 159);
   font-weight: bold;
   font-size: 20px;
 }

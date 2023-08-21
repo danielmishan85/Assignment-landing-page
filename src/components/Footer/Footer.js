@@ -34,7 +34,7 @@ const Footer = () => {
         </a>
       </div>
       <div className='footerRight'>
-        © 2023 WealthWise Solutions. All rights reserved. All information on this website is for
+        © 2023 WWS. All rights reserved. All information on this website is for
         informational and advisory purposes and does not constitute legal
         advice.
       </div>

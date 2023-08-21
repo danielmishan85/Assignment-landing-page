@@ -8,7 +8,7 @@ const Services = () => {
   return (
     <div className='services' id='Services'>
       <div className='headline'>
-        <span style={{ color: 'rgb(182, 142, 194)', fontSize: '2rem' }}>
+        <span style={{ color: 'rgb(101, 128, 159)', fontSize: '2rem' }}>
           Our advantages
         </span>
       </div>

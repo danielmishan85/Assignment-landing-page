@@ -17,7 +17,6 @@ function App() {
       setShowPopup(true);
     }, 10000); // 10,000 milliseconds = 10 seconds
 
-    // Clean up the timer when the component unmounts
     return () => {
       clearTimeout(timer);
     };
@@ -28,8 +27,8 @@ function App() {
       {showPopup && <Popup />}
       <Intro />
       <Services />
-      <Contact />
       <About />
+      <Contact />
       <Testimonial />
       <Footer />
     </div>

@@ -3,11 +3,11 @@
   flex-direction: column;
   margin-top: 5%;
   gap: 4rem;
-  background: rgb(243, 235, 225);
+  background: rgb(245, 239, 232);
 }
 
 .services span:nth-of-type(1) {
-  color: rgb(182, 142, 194);
+  color: rgb(101, 128, 159);
   font-weight: 900;
   font-size: 20px;
 }
