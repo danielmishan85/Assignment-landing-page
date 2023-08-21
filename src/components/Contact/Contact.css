@@ -17,16 +17,16 @@
   gap: 5rem;
   border: 2px solid rgb(146, 132, 150);
   border-radius: 20px;
+  justify-content: center;
 }
 
-.headline {
-  margin-top: 50px;
+.contactHeadline {
   font-size: 23px;
   text-align: center;
   font-weight: 900;
 }
 
-.headline span:nth-of-type(1) {
+.contactHeadline span:nth-of-type(1) {
   color: rgb(146, 132, 150);
 }
 
@@ -48,6 +48,10 @@
   border-radius: 20px;
 }
 
+.s-button{
+  font-size: 20px;
+}
+
 @media screen and (max-width: 480px) {
   .contact {
     padding-top: 7%;
@@ -59,7 +63,7 @@
     transform: scale(0.9);
     gap: 3rem;
   }
-  .headline {
+  .contactHeadline {
     font-size: 13px;
     font-weight: 900;
     padding: 0 15%;

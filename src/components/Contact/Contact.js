@@ -32,8 +32,9 @@ const Contact = () => {
   return (
     <div className='contact' id='Contact'>
       <div className='getInput'>
-        <div className='headline'>
-        For further information leave your details and we'll get back to you as soon as possible -<span> free of charge!</span>
+        <div className='contactHeadline'>
+          For further information leave your details and we'll get back to you
+          as soon as possible -<span> free of charge!</span>
         </div>
         <form ref={form} onSubmit={sendEmail}>
           <input

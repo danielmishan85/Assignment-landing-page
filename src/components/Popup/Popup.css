@@ -3,7 +3,7 @@
   height: 30rem;
   width: 30rem;
   top: 30%;
-  left: 40%;
+  left: calc(50% - 15rem);
   border-radius: 20px;
   display: flex;
   flex-direction: column;

@@ -19,15 +19,16 @@ const Intro = () => {
       <div className='i-right'>
         <img className='logoImg' src={logo} alt='logo-img' />
         <div className='i-heading'>
-          <span>WWS | The way to secure management</span>
-          <span>and profitable investments</span>
+          WWS | Profitable Investments with
+          <span>Secure Management</span>
         </div>
         <div className='i-heading2'>
-          Welcome to the world of improving your financial life! If you are
-          looking for the way to manage your finances in a smart and planned
-          way, you are in the right place. We are here to provide you with an
-          advanced financial service designed to make the process simple and
-          accessible.
+          Take the first steps towards improving your financial life! Looking
+          for financial planning and investment guidance? Our experts at
+          WealthWise™ Solutions (WWS) are here to provide you with a service
+          specifically geared towards your personal needs. Our unique and
+          advanced service platform is designed from the ground up to make the
+          process simple and accessible.
         </div>
         <button className='button i-button' onClick={scrollToTarget}>
           Subscribe for free

@@ -11,6 +11,7 @@ import Popup from './components/Popup/Popup';
 
 function App() {
   const [showPopup, setShowPopup] = useState(false);
+  const [hasScrolled, setHasScrolled] = useState(false);
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -22,11 +23,25 @@ function App() {
     };
   }, []);
 
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 250) {
+        setHasScrolled(true);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
     <div className='App'>
       {showPopup && <Popup />}
       <Intro />
-      <Services />
+      <Services hasScrolled={hasScrolled} />
       <About />
       <Contact />
       <Testimonial />

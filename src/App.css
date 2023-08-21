@@ -1,6 +1,6 @@
 :root {
   --black: #242d49;
-  --boxShadowGrey: 0px 19px 60px rgb(0 0 0 / 8%); 
+  --boxShadowGrey: 0px 19px 60px rgb(0 0 0 / 8%);
   --boxShadow: 0px 19px 60px rgb(146, 132, 150);
 }
 .App {
@@ -8,7 +8,7 @@
   background: rgb(240, 240, 240);
 }
 
-body{
+body {
   margin: 0;
 }
 
@@ -19,10 +19,10 @@ body{
   font-size: 16px;
   background: rgb(101, 128, 159);
   box-shadow: 0px 20px 24px 3px rgba(91, 139, 159, 0.42);
-  width: 200px;
-  height: 40px;
+
   text-align: center;
   border-radius: 20px;
+  padding: 6px 20px;
 }
 
 .button:hover {

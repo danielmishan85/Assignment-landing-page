@@ -24,7 +24,7 @@
   text-align: center;
 }
 
-.i-heading span:nth-of-type(2) {
+.i-heading span:nth-of-type(1) {
   color: rgb(101, 128, 159);
 }
 
@@ -46,6 +46,11 @@
   width: 100%;
   border-radius: 0 0 500px 0;
   box-shadow: 0 13px 22px 0 rgba(0, 0, 0, 0.5);
+}
+
+.i-button{
+
+  font-size: 24px;
 }
 
 @media screen and (max-width: 480px){

@@ -4,42 +4,44 @@ import icon1 from '../../img/icon1.png';
 import icon2 from '../../img/icon2.png';
 import icon3 from '../../img/icon3.png';
 
-const Services = () => {
+const Services = ({ hasScrolled }) => {
   return (
-    <div className='services' id='Services'>
-      <div className='headline'>
-        <span style={{ color: 'rgb(101, 128, 159)', fontSize: '2rem' }}>
-          Our advantages
-        </span>
+    <div
+      className={`services ${hasScrolled ? 'visible' : 'hidden'}`}
+      id='Services'
+    >
+      <div className={`headline ${hasScrolled ? 'visible' : 'hidden'}`}>
+        <span style={{ fontSize: '2rem' }}>Our advantages</span>
       </div>
-      <div className='services-list'>
-        <div className='srv1'>
+      <div className={`services-list ${hasScrolled ? 'visible' : 'hidden'}`}>
+        <div className={`srv1 ${hasScrolled ? 'visible' : 'hidden'}`}>
           <img src={icon2} alt='icon-img' />
-          <span>Personalized investment portfolio management</span>
+          <span>Personalized Investment Portfolio Management</span>
           <span>
             We operate a personal approach to managing your investments, based
-            on a deep understanding of goals Your investment and the level of
-            risk you prefer.
+            on an understanding of your own goals, your investment past and
+            future investments, and the level of risk you prefer.
           </span>
         </div>
-        <div className='srv2'>
+        <div className={`srv2 ${hasScrolled ? 'visible' : 'hidden'}`}>
           <img src={icon1} alt='icon-img' />
-          <span>Tailored financial advice</span>
+          <span>Tailored Financial Advice</span>
           <span>
-            Taking into account up-to-date financial information and your
-            personal financial structure, we Build your personal action plan
-            together. The goal - to ensure that you reach all A financial goal
-            you want to achieve.
+            By taking into account up-to-date financial information and your
+            financial situation, together we will build a personal action that
+            is tailor-made to maximize the chances of success while minimizing
+            any risks involved. The goal - to ensure that you can reach the
+            financial status of your dreams.
           </span>
         </div>
-        <div className='srv3'>
+        <div className={`srv3 ${hasScrolled ? 'visible' : 'hidden'}`}>
           <img src={icon3} alt='icon-img' />
-          <span>Top recommendations</span>
+          <span>Focus on Credit Risk Mitigation</span>
           <span>
-            Each recommendation is made according to your personal financial
-            structure. investment areas, The markets, the level of risk and the
-            financial talents are only some of the variables that we are taken
-            into account when we give recommendations.
+            The ongoing cross-Atlantic bank tumult adds to the squeeze on
+            financial markets, and a return of credit risk supports our risk-off
+            stance. Through the application of various safeguards we make sure
+            that you make the smartest and safest investments possible.
           </span>
         </div>
       </div>

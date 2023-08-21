@@ -4,6 +4,16 @@
   margin-top: 5%;
   gap: 4rem;
   background: rgb(245, 239, 232);
+  padding-top: 5%;
+}
+
+.headline{
+  color: rgb(101, 128, 159);
+  opacity: 0;
+  text-align: center;
+  transform: translateY(60px);
+  visibility: hidden;
+  transition: opacity 2s ease-in-out, transform 2s ease-in-out, visibility 4s;
 }
 
 .services span:nth-of-type(1) {
@@ -23,6 +33,37 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 5%;
+  opacity: 0;
+  transform: translateY(60px);
+  visibility: hidden;
+  transition: opacity 2s ease-in-out, transform 2s ease-in-out, visibility 4s;
+}
+
+.srv1{
+  opacity: 0;
+  transform: translateY(60px);
+  visibility: hidden;
+  transition: opacity 4s ease-in-out, transform 4s ease-in-out, visibility 6s;
+}
+
+.srv2{
+  opacity: 0;
+  transform: translateY(60px);
+  visibility: hidden;
+  transition: opacity 5s ease-in-out, transform 5s ease-in-out, visibility 7s;
+}
+
+.srv3{
+  opacity: 0;
+  transform: translateY(60px);
+  visibility: hidden;
+  transition: opacity 6s ease-in-out, transform 6s ease-in-out, visibility 8s;
+}
+
+.visible {
+  opacity: 1; /* Show the component */
+  transform: translateY(0);
+  visibility: visible;
 }
 
 .services-list > * {
@@ -35,7 +76,7 @@
 }
 
 @media screen and (max-width: 480px) {
-  .services{
+  .services {
     margin-top: 20%;
     padding: 10%;
     gap: 6rem;
@@ -44,7 +85,7 @@
     flex-direction: column;
     gap: 5rem;
   }
-  .services-list > *{
+  .services-list > * {
     width: 350px;
   }
 }

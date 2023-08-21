@@ -11,30 +11,29 @@ const About = () => {
       </div>
       <div className='aboutLeft'>
         <div className='heading'>
-          <span>About us</span>
-          <div className='line'></div>
+          <span className='headingUnderline'>About us</span>
         </div>
         <div className='section'>
           We believe that money management can be simple and accessible to
-          everyone. We founded the company With the goal of upgrading people's
-          money management, providing them with professional financial advice
+          everyone. We founded the company with the goal of upgrading people's
+          money management, providing them with professional financial advice,
           and ensuring that every client can direct themselves to a better
           financial future.
           <br />
           <br />
-          We are designed to make the process of financial decisions simple and
-          understandable for you. With Many years of experience and expertise,
-          we are here to improve your financial life.
+          Our services are designed to make the process of financial decisions
+          simple and understandable for you. With Many years of experience and
+          expertise, we are here to improve your financial life.
           <br />
           <br />
           We believe in a deep understanding of your unique financial needs and
-          support sponsored for you. We are looking to advise and assist you in
-          so many ways You can upgrade your financial life.
+          support sponsored that is customized for your needs and level of prior
+          knowledge.
           <br />
           <br />
-          Contact us today and join our thousands of satisfied customers who
-          have already improved their management their finances through our
-          professional and personal services.
+          Contact us today and join thousands of satisfied partners who have
+          already improved their financial management through our professional
+          and personal services.
         </div>
       </div>
     </div>
