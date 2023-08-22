@@ -7,7 +7,7 @@
   border-radius: 20px;
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 2rem;
   border: var(--boxShadowGrey);
   background-color: rgba(156, 181, 222, 0.87);
   z-index: 9999;

@@ -19,7 +19,7 @@ const Testimonial = () => {
     },
     {
       img: profilePic2,
-      name: 'Shira lavi',
+      name: 'Shira Lavi',
       review:
       `"I am very satisfied with the service. Your accurate and quick answers are very impressive".`,
     },
