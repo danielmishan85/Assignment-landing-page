@@ -37,11 +37,10 @@ const Testimonial = () => {
     },
   ];
   return (
-    <div className='t-wrapper'>
-      <div className='t-hadding'>
+    <div className='tWrapper'>
+      <div className='tHadding'>
         <span>Recommendations</span>
       </div>
-      {/* sliders */}
       <Swiper
         modules={[Pagination]}
         slidesPerView={1}

@@ -16,7 +16,7 @@ function App() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowPopup(true);
-    }, 10000); // 10,000 milliseconds = 10 seconds
+    }, 20000); 
 
     return () => {
       clearTimeout(timer);

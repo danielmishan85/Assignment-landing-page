@@ -1,4 +1,4 @@
-.t-wrapper {
+.tWrapper {
   display: flex;
   align-items: center;
   margin-top: 4rem;
@@ -7,8 +7,8 @@
   flex-direction: column;
 }
 
-.t-hadding > * {
-  font-size: 2.5rem;
+.tHadding > * {
+  font-size: 2.2rem;
   font-weight: bold;
   color: rgb(101, 128, 159);
 }
@@ -42,7 +42,7 @@
   text-align: center;
 }
 
-.t-wrapper .swiper {
+.tWrapper .swiper {
   width: 80%;
   height: 70%;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
@@ -50,7 +50,7 @@
   border-radius: 5px;
 }
 
-.t-wrapper .swiper-slide {
+.tWrapper .swiper-slide {
   display: flex;
   align-items: center;
   justify-content: center;

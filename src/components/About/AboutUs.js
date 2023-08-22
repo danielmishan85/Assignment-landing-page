@@ -10,7 +10,7 @@ const About = () => {
         <img src={logo} alt='logo-img' />
       </div>
       <div className='aboutLeft'>
-        <div className='heading'>
+        <div>
           <span className='headingUnderline'>About us</span>
         </div>
         <div className='section'>

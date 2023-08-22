@@ -61,7 +61,7 @@ const Contact = () => {
           <input
             type='submit'
             value='Subscribe for free'
-            className='button s-button'
+            className='button contactButton'
           />
           <span>
             {done && 'Form sent successfully, we will contact you soon!'}

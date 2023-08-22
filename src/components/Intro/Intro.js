@@ -13,16 +13,16 @@ const Intro = () => {
 
   return (
     <div className='intro' id='Home'>
-      <div className='i-left'>
+      <div className='introLeft'>
         <img className='heroImg' src={hero} alt='hero-img' />
       </div>
-      <div className='i-right'>
+      <div className='introRight'>
         <img className='logoImg' src={logo} alt='logo-img' />
-        <div className='i-heading'>
+        <div className='introHeading'>
           WWS | Profitable Investments with
           <span>Secure Management</span>
         </div>
-        <div className='i-heading2'>
+        <div className='introHeading2'>
           Take the first steps towards improving your financial life! Looking
           for financial planning and investment guidance? Our experts at
           WealthWise™ Solutions (WWS) are here to provide you with a service
@@ -30,7 +30,7 @@ const Intro = () => {
           advanced service platform is designed from the ground up to make the
           process simple and accessible.
         </div>
-        <button className='button i-button' onClick={scrollToTarget}>
+        <button className='button introButton' onClick={scrollToTarget}>
           Subscribe for free
         </button>
       </div>

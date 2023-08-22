@@ -25,18 +25,15 @@
   width: 100%;
 }
 
-.heading {
-  font-size: 2.5rem;
-  font-weight: bold;
-  text-align: start;
-}
-
 .section {
   width: 70%;
 }
 
 .headingUnderline {
   border-bottom: 3px solid rgba(215, 185, 120);
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: start;
 }
 
 .aboutRight {
@@ -59,9 +56,6 @@
     align-items: center;
     text-align: center;
     gap: 2rem;
-  }
-  .line {
-    width: 100%;
   }
   .aboutRight > img {
     width: 90%;
