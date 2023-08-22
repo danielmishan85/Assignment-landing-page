@@ -67,7 +67,7 @@ const Popup = () => {
           value='Subscribe for free'
           className='button p-button'
         />
-        <span>
+        <span className='successTXT'>
           {done && 'Form sent successfully, we will contact you soon!'}
         </span>
       </form>

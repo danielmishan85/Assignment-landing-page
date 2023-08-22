@@ -56,6 +56,10 @@
   margin-top: 2%;
 }
 
+.successTXT{
+  text-align: center;
+}
+
 @media screen and (max-width: 480px) {
   .popup {
     left: 10%;
