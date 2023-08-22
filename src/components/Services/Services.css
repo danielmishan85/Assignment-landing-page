@@ -7,7 +7,7 @@
   padding-top: 5%;
 }
 
-.headline{
+.headline {
   color: rgb(101, 128, 159);
   opacity: 0;
   text-align: center;
@@ -15,10 +15,13 @@
   visibility: hidden;
   transition: opacity 2s ease-in-out, transform 2s ease-in-out, visibility 4s;
 }
+.services .headline span {
+  font-size: 2.2rem !important;
+}
 
 .services span:nth-of-type(1) {
   color: rgb(101, 128, 159);
-  font-weight: 900;
+  font-weight: bold;
   font-size: 20px;
 }
 
@@ -39,21 +42,21 @@
   transition: opacity 2s ease-in-out, transform 2s ease-in-out, visibility 4s;
 }
 
-.srv1{
+.srv1 {
   opacity: 0;
   transform: translateY(60px);
   visibility: hidden;
   transition: opacity 4s ease-in-out, transform 4s ease-in-out, visibility 6s;
 }
 
-.srv2{
+.srv2 {
   opacity: 0;
   transform: translateY(60px);
   visibility: hidden;
   transition: opacity 5s ease-in-out, transform 5s ease-in-out, visibility 7s;
 }
 
-.srv3{
+.srv3 {
   opacity: 0;
   transform: translateY(60px);
   visibility: hidden;
@@ -61,7 +64,7 @@
 }
 
 .visible {
-  opacity: 1; /* Show the component */
+  opacity: 1;
   transform: translateY(0);
   visibility: visible;
 }

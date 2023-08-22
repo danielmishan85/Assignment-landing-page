@@ -11,7 +11,7 @@ const Services = ({ hasScrolled }) => {
       id='Services'
     >
       <div className={`headline ${hasScrolled ? 'visible' : 'hidden'}`}>
-        <span style={{ fontSize: '2.2rem' }}>Our advantages</span>
+        <span >Our advantages</span>
       </div>
       <div className={`services-list ${hasScrolled ? 'visible' : 'hidden'}`}>
         <div className={`srv1 ${hasScrolled ? 'visible' : 'hidden'}`}>
